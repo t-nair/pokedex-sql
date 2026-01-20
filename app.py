@@ -188,4 +188,3 @@ else:
             )
             c3.write(f"**Total**: {row['total_stats']}")
 
-st.caption("Tip: Keep your DB small at first (Gen 1–3) so it loads instantly.")

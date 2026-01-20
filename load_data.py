@@ -78,7 +78,7 @@ def load_generation(gen: int):
 if __name__ == "__main__":
     # Start small so you finish today:
     # load gen 1 first, then 2, then 3 if you have time.
-    for gen in [1, 2, 3]:
+    for gen in sorted(GEN_ID_RANGES.keys()):
         print(f"Loading gen {gen}...")
         load_generation(gen)
     print("Done.")
