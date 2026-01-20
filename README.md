@@ -30,3 +30,5 @@ pokedex-sql/
 └── requirements.txt
 
 ```
+
+My favorite Pokémon: Xerneas 🦌
